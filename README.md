@@ -1,4 +1,4 @@
-# 🧬 Hi-D-Erick
+# 🧬 High Dimensional Evolution
 Home to Erick Oduniyi's code, design, and experiments related to the SFI-CI High Dimensional Evolution Project
 
 ## 🧭 Navigation
