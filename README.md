@@ -3,7 +3,7 @@
 Please jump around and through the resources below. These are the notes and ideas that the HiD group has created and maintains to serve the project, as well as, related projects (i.e., evolutionary-computation, language-modeling, complex systems, collective intelligence etc.)
 
 ---
-### [Projects](Prototypes.md)
+### [Projects](Prototypes/Prototypes.md)
 
 ---
 ### Resources:
