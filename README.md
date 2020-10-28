@@ -18,11 +18,11 @@ Please jump around and through the resources below. These are the notes and idea
 <i>Erick Oduniyi ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>  
 <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span>
 
-<!-- <i>Edgar ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>  
-<!-- <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span> -->
+<i>Edgar ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>  
+<!-- <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span>
 
-<!-- <i>Erick Oduniyi ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>   -->
-<!-- <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span> -->
+<i>Erick Oduniyi ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>   -->
+<!-- <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span>
 
 <!-- <i>Erick Oduniyi ([eeoduniyi@gmail](eeoduniyi@gmail.com))</i>   -->
 <!-- <span style="font-size:.75em;"><b>Research Interest: </b>Cognitive Science, Computational Design, Ecological Sciences, Industrial-Robotics</span> -->
