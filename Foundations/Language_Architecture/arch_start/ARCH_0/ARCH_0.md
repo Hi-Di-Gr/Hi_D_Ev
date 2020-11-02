@@ -13,4 +13,4 @@ Capacity:
 
 ## Bayesian Statistics
 Belief Propagation:
-We can use Belief propagation to calculate the channel Capacity of some Markov chain...[and so on](m_data_comp.md)
+We can use Belief propagation to calculate the channel Capacity of some Markov chain...[and so on](M_Data_Compression.pdf)
