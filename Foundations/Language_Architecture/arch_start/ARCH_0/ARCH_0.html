@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>New Belief Systems</title>
+<title>ARCH_0.md</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
@@ -365,54 +365,16 @@ code {
           : 'default'
     });
   </script>
-<h1 id="a-new-belief-system"><em>A New Belief System</em></h1>
-<p><em>Random Matrix Theory Applied to Deep Belief Signaling Networks</em></p>
+<h1 id="introduction-to-algorithmic-information-theory-belief-propagation-graph-signal-processing-and-deep-reinforcement-learning">Introduction to Algorithmic Information Theory, Belief Propagation, Graph Signal Processing, and Deep Reinforcement Learning</h1>
 <hr>
-<p><em>See references for quantum computing, graph signal processing, and belief propagation:</em><a href="references.md">📖</a></p>
-<h2 id="a-formal-belief-system">A Formal Belief System</h2><a href="arch_start/ARCH_0/ARCH_0.html">Foundations of a Formal Belief System</a></p>
-<img src="https://latex.codecogs.com/gif.latex?\begin{align}&space;\mbox{Unity&space;of&space;Knowledge}&space;=&space;I(ABB_{openAI_{GYM}}(GAN;&space;NAS;&space;ME;&space;MLE;&space;AI))\\&space;Inference&space;=&space;Belief(I(ABB_{openAI_{GYM}}(GAN;&space;NAS;&space;ME;&space;MLE;&space;AI)))&space;\\&space;Z&space;\rightarrow&space;Inference&space;\\&space;\mbox{Then,&space;to&space;learn&space;on&space;the&space;inference:}&space;\\&space;min_{T}{\sum_{i}&space;\sum_{j}&space;T_{ij}&space;Z_{ij}}&space;\sum_{i}&space;\sum_{j}&space;T_{ij}Z_{ij}&space;&plus;&space;\dfrac{a}{2}&space;||T||^{2}_{F}&space;&plus;&space;\dfrac{a}{2}&space;||T||^{2}_{2}s.t.&space;||T||&space;=&space;n&space;\end{align}" title="\begin{align} \mbox{Unity of Knowledge} = I(ABB_{openAI_{GYM}}(GAN; NAS; ME; MLE; AI))\\ Inference = Belief(I(ABB_{openAI_{GYM}}(GAN; NAS; ME; MLE; AI))) \\ Z \rightarrow Inference \\ \mbox{Then, to learn on the inference:} \\ min_{T}{\sum_{i} \sum_{j} T_{ij} Z_{ij}} \sum_{i} \sum_{j} T_{ij}Z_{ij} + \dfrac{a}{2} ||T||^{2}_{F} + \dfrac{a}{2} ||T||^{2}_{2}s.t. ||T|| = n \end{align}" />
-<h2 id="python-and-qiskit-implementation">Python and Qiskit Implementation</h2>
-<pre class="hljs"><code><div><span class="hljs-comment"># Run inference on information shared between random populations of...</span>
-belief_prop = bp.random(population, environments, neural_architectures: neural_ode, gan, cnn, rnn; depth: multi, ...)
-
-<span class="hljs-comment"># Analyze intersection of neural architectures and environments(graph signal processing)</span>
-GSP.engine(analysis(union <span class="hljs-keyword">for</span> belief_prop), algo_seq: [forward, backward, forward])
-</div></code></pre>
-<hr>
-<p><code>GSP.engine</code> can be further optimized through quantum topological search:</p>
-<pre class="hljs"><code><div><span class="hljs-comment"># Initialization</span>
-<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
-<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
-
-<span class="hljs-comment"># Importing Qiskit</span>
-<span class="hljs-keyword">from</span> qiskit <span class="hljs-keyword">import</span> IBMQ, Aer, QuantumCircuit, ClassicalRegister, QuantumRegister, execute
-<span class="hljs-keyword">from</span> qiskit.providers.ibmq <span class="hljs-keyword">import</span> least_busy
-<span class="hljs-keyword">from</span> qiskit.quantum_info <span class="hljs-keyword">import</span> Statevector
-
-<span class="hljs-comment"># Import basic plot tools</span>
-<span class="hljs-keyword">from</span> qiskit.visualization <span class="hljs-keyword">import</span> plot_histogram
-
-<span class="hljs-comment"># Initialize quantum components</span>
-n = <span class="hljs-number">2</span> <span class="hljs-comment"># qubits</span>
-grover_circuit = QuantumCircuit(n)
-grover_circuit = initialize_s(grover_circuit, [<span class="hljs-number">0</span>,<span class="hljs-number">1</span>])
-grover_circuit.draw()
-
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">initialize_s</span><span class="hljs-params">(qc, qubits)</span>:</span>
-    <span class="hljs-string">"""Apply a H-gate to 'qubits' in qc"""</span>
-    <span class="hljs-keyword">for</span> q <span class="hljs-keyword">in</span> qubits:
-        qc.h(q)
-    <span class="hljs-keyword">return</span> qc
-</div></code></pre>
-<p><img src="circuit.png" alt="circuit">
-.
-.
-.
-.
-.
-And so on</p>
-<p><em>See references for quantum computing, graph signal processing, and belief propagation:</em>
-<a href="references.md">📖</a></p>
+<h2 id="information-information-theory">Information Information Theory</h2>
+<p>Compression (Entropy):</p>
+<img src="https://latex.codecogs.com/gif.latex?H(X)&space;=&space;-\sum_{x}&space;p(x)\log_{2}p(x)" title="H(X) = -\sum_{x} p(x)\log_{2}p(x)" />
+<p>Capacity:</p>
+<img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;SIR&space;&=&space;I(X{;}Y)&space;&=&space;H(X)&space;-&space;H(X|Y)&space;\end{align*}" title="\begin{align*} SIR &= I(X{;}Y) &= H(X) - H(X|Y) \end{align*}" />
+<h2 id="bayesian-statistics">Bayesian Statistics</h2>
+<p>Belief Propagation:
+We can use Belief propagation to calculate the channel Capacity of some Markov chain...<a href="M_Data_Compression.pdf">and so on</a></p>
 
 </body>
 </html>
