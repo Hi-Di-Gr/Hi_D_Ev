@@ -7,10 +7,10 @@
 
  * <i> c: a cosmetic usually used as a base for makeup </i>
 
- ---
-### [Architecture]()
+---
+### [Language](./Language_Architecture/ARCH.md)
 
-### [Language]()
+### [Architecture](./Language_Architecture/ARCH.md)
 
 ### [Evolutionary Theory and Design]()
 
