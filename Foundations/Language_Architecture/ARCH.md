@@ -2,7 +2,7 @@
 _Random Matrix Theory Applied to Deep Belief Signaling Networks_
 
 ---
-## A Formal Belief System
+## [A Formal Belief System](arch_start/ARCH_0/ARCH_0.md)
 
 <img src="https://latex.codecogs.com/gif.latex?\begin{align}&space;\mbox{Unity&space;of&space;Knowledge}&space;=&space;I(ABB_{openAI_{GYM}}(GAN;&space;NAS;&space;ME;&space;MLE;&space;AI))\\&space;Inference&space;=&space;Belief(I(ABB_{openAI_{GYM}}(GAN;&space;NAS;&space;ME;&space;MLE;&space;AI)))&space;\\&space;Z&space;\rightarrow&space;Inference&space;\\&space;\mbox{Then,&space;to&space;learn&space;on&space;the&space;inference:}&space;\\&space;min_{T}{\sum_{i}&space;\sum_{j}&space;T_{ij}&space;Z_{ij}}&space;\sum_{i}&space;\sum_{j}&space;T_{ij}Z_{ij}&space;&plus;&space;\dfrac{a}{2}&space;||T||^{2}_{F}&space;&plus;&space;\dfrac{a}{2}&space;||T||^{2}_{2}s.t.&space;||T||&space;=&space;n&space;\end{align}" title="\begin{align} \mbox{Unity of Knowledge} = I(ABB_{openAI_{GYM}}(GAN; NAS; ME; MLE; AI))\\ Inference = Belief(I(ABB_{openAI_{GYM}}(GAN; NAS; ME; MLE; AI))) \\ Z \rightarrow Inference \\ \mbox{Then, to learn on the inference:} \\ min_{T}{\sum_{i} \sum_{j} T_{ij} Z_{ij}} \sum_{i} \sum_{j} T_{ij}Z_{ij} + \dfrac{a}{2} ||T||^{2}_{F} + \dfrac{a}{2} ||T||^{2}_{2}s.t. ||T|| = n \end{align}" />
 
@@ -10,9 +10,9 @@ _Random Matrix Theory Applied to Deep Belief Signaling Networks_
 ## Python and Qiskit Implementation
 ```python
 # Run inference on information shared between random populations of...
-belief_prop = bp.random(population, enviornments, neural_architectures: neural_ode, gan, cnn, rnn; depth: multi, ...)
+belief_prop = bp.random(population, environments, neural_architectures: neural_ode, gan, cnn, rnn; depth: multi, ...)
 
-# Analyze intersection of neural architectures and enviornments (graph signal processing)
+# Analyze intersection of neural architectures and environments(graph signal processing)
 GSP.engine(analysis(union for belief_prop), algo_seq: [forward, backward, forward])
 ```
 
