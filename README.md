@@ -16,7 +16,7 @@ Please jump around and through the resources below. These are the notes and idea
 #### [Design]()
 #### [Software]()
 #### [Hardware]()
-#### [Foundations](Foundations/Architectute_Language/ARCH.md)
+#### [Foundations](/Foundations/Architectute_Language/ARCH.md)
 
 ---
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
