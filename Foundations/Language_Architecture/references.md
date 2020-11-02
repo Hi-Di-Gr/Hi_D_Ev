@@ -4,7 +4,6 @@
 1.
 [https://epfl-lts2.github.io/gspbox-html/doc/learn_graph/gsp_learn_graph_log_degrees.html](https://epfl-lts2.github.io/gspbox-html/doc/learn_graph/gsp_learn_graph_log_degrees.html)
 
-
 2.
 [https://people.eecs.berkeley.edu/~vazirani/f04quantum/notes/lec10/lec11.pdf](https://people.eecs.berkeley.edu/~vazirani/f04quantum/notes/lec10/lec11.pdf)
 
